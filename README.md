@@ -13,7 +13,7 @@ The software compiles as Dropbox.exe. I used a custom-made obfuscator and packer
 The aimbot works by using a custom pixel search function, looks for a specific color (with optional tolerance) and moves the mouse to the target. It is possible to enable force headshot for heroes like Widowmaker or Tracer in certain situations. To toggle force headshot, see the commands section below. By default the cheat only corrects the X-axis making it look a lot more legit.
 
 ### Anabot
-The anabot works similar to the aimbot by looking for a specific color. When a teammate gets damaged the little arrow underneath their healthbar turns orange/yellow, this is the color the bot is looking for.
+The "anabot" works similar to the aimbot by looking for a specific color.
 
 ### Widowbot
 The "widowbot" looks for the color of the outline around a hero. This only works on short to medium range since on long range the outline changes color to orange. With a few modifications you can probably detect multi-color. It is recommended to combine this with Force Headshot.
@@ -37,9 +37,10 @@ For the mouse to move less, type in cmd "aimbot.antishake"
 
 
 ## Future
-- Additional settings read by a .ini file
+- Additional settings read by a .ini/xml file
 - Create profiles
 - Fix triggerbot
+- Test anabot colors
 
 ## Contact
 You can post an issue in the repo and I will check them out. I will push changes I make when I feel like actually working on this project. I will see if I can write a wiki overtime.

@@ -27,7 +27,7 @@ namespace aimWatch
 
             // Set default settings.
             Settings.Anabot.AimKey = 0x05;
-            Settings.Anabot.TargetColor = Color.FromArgb(202, 164, 63);
+            Settings.Anabot.TargetColor = Color.FromArgb(203, 196, 194);
 
             // Run the aimbot.
             new Thread(new ThreadStart(Run)).Start();
